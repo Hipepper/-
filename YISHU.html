@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Design-youself | 衣术</title>
+</head>
+<style type="text/css">
+  body{
+      background-image: url('http://cdn.duitang.com/uploads/item/201604/09/20160409164002_rHxzN.jpeg');
+      background-repeat:no-repeat;
+      background-attachment: fixed;
+      /*background-position:center;*/
+      margin-top:0px;
+      margin-right: 0px;
+      margin-left: 0px;
+  }
+
+ul.page1{
+    padding: 0px;
+    margin-top:40px;
+    text-align: center;
+}
+ul.page1 li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right:10%;   
+}
+p.p1{
+   
+    background-size: auto 150px;
+    width: 100%;
+    /*height: 150px;
+    padding: 50px;*/
+    text-align: center;
+    font-size: 30px;
+    font-family: "STCaiyun";
+}
+#p2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:20px;
+}
+ul.compite li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right:0px; 
+}
+ul.compite img{
+    width: 200px;
+    height: 350px;
+}
+ul.zui-wai{
+            list-style-type: none;
+            display: inline-block;
+        }
+ul.zui-wai > li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+}
+ul.in{
+            display: inline;
+            list-style-type: none;
+            display: inline-block;
+            padding: 0px;
+            margin: 0px;
+        } 
+ul.in img{
+    height: 250px;
+}
+ul.in li{
+}
+div.liucheng{
+    background-color:rgba(184, 184, 184, 0.44);
+            /*边框*/
+            border: solid 1px rgba(172, 175, 179, 0.68);
+            /*边角弧度*/
+            border-radius: 0px;
+            /*阴影*/
+            -moz-box-shadow:2px 2px 5px #333333; 
+            -webkit-box-shadow:2px 2px 5px #333333; 
+            box-shadow: 7px 15px 30px #285a63;
+}   
+
+
+    *{padding: 0;margin: 0;}  /* 先重置一下html，消除HTML标签默认的内外边距 */
+    .wrap{width: 800px;margin: 0 auto;}    /* 对导航的内容设置一个主体为800px的宽并使其居中 */
+    .clear{clear: both;}  /* 清除浮动 */
+    a{text-decoration-line: none;}   /* 去掉默认a标签的下划线 */
+    ul,li{list-style: none;}
+    nav .level>li{float: left;width: 16.66%;text-align: center;background: bisque;padding: 10px 0;font-size: 16px;transition: .4s;}
+    nav .level>li a{color: black;}
+    nav .level>li:hover{background: red;}   /* 设置鼠标滑过后的样式 */
+ 
+    nav .two{display: none;margin-top: 10px;}  /* 先使二级菜单的内容隐藏 */
+    nav .level>li:hover .two{display: block;}   /* 鼠标滑过一级菜单后的显示二级菜单 */
+    nav .two li{padding: 5px 0;transition: .4s;cursor: pointer;}
+    nav .two li:hover{background: pink;}
+</style>
+<body>  
+        <nav>
+                <div class="wrap">
+                    <ul class="level">
+                        <li><a href="">首页</a></li>
+                        <li>
+                            <a href="">项目简介</a>
+                            <ul class="two">
+                                <li>项目原理</li>
+                                <li>使用教程</li>
+                                <li></li>
+                            </ul>
+                        </li>
+                       
+                        <li>
+                            <a href="">团队介绍</a>
+                            <ul class="two">
+                                <li>团队成员</li>
+                                <li>资金来源</li>
+                                <li>项目维护</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">软件下载</a>
+                            <ul class="two">
+                                <li>安卓下载</li>
+                                <li>IOS下载</li>
+                                <li>电脑客户端</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>  
+    <div class="zhenwen" style="background: rgba(239,255,255,0.6);height: 100%; width: 80%; margin:auto" >
+     <div>
+         <ul class="page1"> 
+      <!--<li><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555339846992&di=be59620eb9eb04346ac6f5cc3879400f&imgtype=0&src=http%3A%2F%2Fs9.rr.itc.cn%2Fr%2FwapChange%2F201611_14_13%2Fa0o34p37040132926596.jpg" alt=""></li>
+            -->  
+            <li><img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1492861615,2658411536&fm=26&gp=0.jpg" alt="">
+            </li>
+            <li> <h1 style="font-size:40px">衣术 | Design-youself</h1>
+                 <h1 font style="font-family:fantasy;" id="p2">Use the model && Do your best</h1>  
+            </li>
+        </ul>                 
+      </div>
+<hr>
+      <div id="blink"> <p class="p1">好看的购物软件千篇一律 <img src="http://pic.uzzf.com/up/2017-1/201701121829053756574.gif" alt=""> 有趣的建模万里挑一</p>
+     </div>
+<script language="javascript">
+function changeColor(){
+var color="#f00|#0f0|#00f|#880|#808|#088|yellow|green|blue|gray";
+color=color.split("|");
+document.getElementById("blink").style.color=color[parseInt(Math.random() * color.length)];
+}
+setInterval("changeColor()",200);
+</script>
+
+<!--<p id="p2"><strong> ！！担心淘宝model和自己差距大翻车？！！</strong></p>
+<!--淘宝对比图
+
+<ul class="compite">
+   <li><img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3847601428,629587883&fm=26&gp=0.jpg" alt="">
+   </li>
+   <li>
+       <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555351727315&di=83029c26057d4b5d3ca22979914179e4&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20170628%2Fe6db655178ce40c3bc816a0b07c7c3d1_th.jpg" alt="">
+   </li>
+   <li>
+       <img src="" alt="">
+   </li>
+</ul>
+    </div><!--全局的div-->
+
+<div class="liucheng" >
+    <ul class="zui-wai">
+  <li>
+      <ul class="in">
+    <li><img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3832160423,1037404412&fm=26&gp=0.jpg" alt=""></li>
+    <li>登陆网站或者点开软件就会有一个初始的3D人物模型 </li>   
+</ul>  
+</li>
+   <li>
+       <ul class="in">
+      
+      <li> <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555598898539&di=88567976a295336f5c7c80b778ee0733&imgtype=0&src=http%3A%2F%2Fimg3.duitang.com%2Fuploads%2Fitem%2F201603%2F14%2F20160314234415_8itHx.thumb.700_0.jpeg" alt="">
+      </li>
+      <li> <p>认真输入自己的身高啊体重什么的 </p></li>
+      </ul>
+    </li>
+
+    <li>
+        <ul class="in">
+            <li><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555598081348&di=39f2c7ac9b1df6613dab53aee1d69608&imgtype=0&src=http%3A%2F%2Fimg.cgmodel.com%2Fimage%2F2018%2F1201%2Fbig%2F1092982-438489704.gif" alt=""></li>
+            <li>我们会自动帮您生成一个跟您身材完全一样的model</li>
+        </ul>
+    </li>
+</ul>
+</div>
+
+<div id="sigin">
+
+</div>
+
+</body>
+</html>
